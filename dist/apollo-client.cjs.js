@@ -1292,7 +1292,7 @@ var concat = ApolloLink.concat;
 
 var execute = ApolloLink.execute;
 
-var version = '3.4.3';
+var version = '3.4.4';
 
 var hasOwnProperty$1 = Object.prototype.hasOwnProperty;
 function parseAndCheckHttpResponse(operations) {

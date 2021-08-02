@@ -14,7 +14,7 @@ var graphql = require('graphql');
 var utils = require('../link/utils');
 var graphqlTag = require('graphql-tag');
 
-var version = '3.4.3';
+var version = '3.4.4';
 
 exports.NetworkStatus = void 0;
 (function (NetworkStatus) {

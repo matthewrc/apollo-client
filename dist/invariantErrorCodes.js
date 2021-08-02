@@ -5,7 +5,7 @@
 // consult the @apollo/client/invariantErrorCodes.js file specific to
 // your @apollo/client version. This file is not meant to be imported.
 {
-  "@apollo/client version": "3.4.3",
+  "@apollo/client version": "3.4.4",
 
   1: {
     file: "@apollo/client/cache/index.js",

@@ -1,6 +1,6 @@
 {
   "name": "@apollo/client",
-  "version": "3.4.4",
+  "version": "3.4.5",
   "description": "A fully-featured caching GraphQL client.",
   "private": true,
   "keywords": [
@@ -30,7 +30,7 @@
   "homepage": "https://www.apollographql.com/docs/react/",
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "tsc",
+    "build": "tsc && cp -r ./dist/* .",
     "postbuild": "npm run update-version && npm run invariants && npm run sourcemaps && npm run rollup && npm run prepdist && npm run resolve && npm run verify-version",
     "update-version": "node config/version.js update",
     "verify-version": "node config/version.js verify",
